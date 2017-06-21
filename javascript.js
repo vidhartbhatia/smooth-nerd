@@ -9,10 +9,10 @@ var lines = [
 "I only handle the front-end but I know a good developer who can do your back-end.",
 "Can I examine your pixels?",
 "sup"
-]
+];
 
 function newLine() {
-	var rand = Math.floor(Math.random() * (lines.length))
+	var rand = Math.floor(Math.random() * (lines.length));
 	document.getElementById('lineDisplay').innerHTML = 'test';
 
 }
