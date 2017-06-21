@@ -13,6 +13,6 @@ var lines = [
 
 function newLine() {
 	var rand = Math.floor(Math.random() * (lines.length));
-	document.getElementById('lineDisplay').innerHTML = 'test';
+	document.getElementById('lineDisplay').innerHTML = lines[rand];
 
 }
