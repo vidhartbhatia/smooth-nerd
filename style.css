@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'Cavorting';
+    src: url('fonts/Cavorting.otf');
+    font-weight:400;
+}
+
+/*       HTML STANDARD         */
+/*_____________________________*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	height: 100%;
+	width: 100%;
+}
+a{
+	text-decoration: none;
+	color: #f7b5b5;
+}
+a:hover{
+	color: #f0595f;
+}
+
+
+/*       MAIN ELEMENTS         */
+/*_____________________________*/
+.title{
+	font-family: 'Josefin Slab', serif;
+	font-weight: 400; 
+	font-size: 50px;
+	text-align: center;
+}
+.main{
+	width: 1020px;
+	margin: 90px auto 0 auto; 
+}
+
+.wrap{
+	width: 250px;
+	margin: 0 auto 0 auto;
+	display: block;
+}
+#lines{
+	font-family: 'Open Sans Condensed', sans-serif;
+	width: auto;
+	height: auto;
+	padding: 100px 25px 100px 25px;
+	font-size: 30px;
+	text-align: center;
+}
+.buttons{
+	font-family: 'Josefin Slab', serif;
+	font-weight: 300;
+	width: 480px;
+	height: auto;
+	margin: 0 auto 0 auto;
+	border-top: 2px solid #f7b5b5;
+	text-align: center;
+}
+
+
+
+/*     	 OTHER ELEMENTS        */
+/*_____________________________*/
+.logo{
+	width: 150px;
+	height: 150px;
+	background-image: url('img/logo.png');
+	background-size: cover;
+	margin: 0 auto 25px auto;
+}
+.float-left
+{
+	float:left;
+}
+.float-right{
+	float:right;
+	text-align: right;
+	margin: 0 25px 200px 0;
+}
+
+.button{
+	color: #ffffff;
+	width: 125px;
+	height: 10px;
+	line-height: 10px;
+	display: inline-block;
+	margin: 50px 20px 20px 20px;
+	background-color: #f7b5b5;
+	padding: 25px;
+	border-radius: 10px;
+	text-align: center;
+	display:inline-block;
+}
+.button:hover{
+	background-color: #f0595f;
+}
+
+/*     	    "TABLET"           */
+/*_____________________________*/
+@media (max-width:1024px) {
+	h2{
+		margin: 50px 0 0 0;
+	}
+	.main{
+		width: auto;
+		height: auto;
+	}
+	.footer{
+		width: 100%;
+		text-align: center;
+	}
+	#lines{
+		padding: 75px;
+	}
+	.shop{
+		width: auto;
+	}
+}
+
+
+/*     	     MOBILE            */
+/*_____________________________*/
+@media (max-width:500px) {
+
+	h2{
+		margin: 50px 0 0 0;
+	}
+	.main{
+		width: auto;
+		height: auto;
+		margin: 20px 0 0 0;
+	}
+	#lines{
+		width: auto;
+		height: auto;
+		margin: 0;
+		padding: 75px;
+	}
+	.logo{
+		margin: 0 auto 0 auto;
+	}
+	.buttons{
+		width: 90%;
+		height: auto;
+	}
+	.button{
+		width: 100px;
+		height: 35px;
+		line-height: 18px;
+		margin: 15px 5px 5px 5px;
+	}
+	.shop{
+		height: 100px;
+		padding: 50px 0 0 0;
+		margin: 75px auto 0 auto;
+		width: auto;
+	}
+	.footer{
+		width: 100%;
+		height: auto;
+		text-align: center;
+		padding: 25px 0 25px 0;
+	}
+}
