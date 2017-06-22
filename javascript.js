@@ -12,7 +12,7 @@ var arr = [
 "You are my loop condition. I keep coming back to you.",
 "I always thought Love is an abstract class, until you created an instance of it.",
 "Hey girl, are you the cook-levin theroem? cause you NP-complete me",
-" don't need to run DFS because your the one I'm looking for",
+"I don't need to run DFS because your the one I'm looking for",
 "I'd break Gale-Shapely cause your the only one on my preference list",
 "Are you a karp reduction? Cause you make me NP-hard",
 "you are always at the top of my priority queue.",
