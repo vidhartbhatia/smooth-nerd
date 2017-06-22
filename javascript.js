@@ -1,11 +1,11 @@
-var lines = [
+var arr = [
 "my->heart doesnt throw any dereference errors because my heart points to you!",
 "I need those loop invariants because otherwise I would keep looking at you forever.",
 "Is your name Google? Because you have everything I've been searching for.",
 "Is your name Wi-fi? Because I'm really feeling a connection.",
-"You had me at \"Hello World.\"",
+"You had me at Hello World.",
 "I think you've stolen the ASCII to my heart!",
-"What font do you use? because you're my type.";
+"What font do you use? because you're my type.",
 "Even if I stopped using Tkinter i could never mak esomething as beautiful as you!",
 "I'd switch to emacs for you.",
 "You auto-complete me",
@@ -22,8 +22,9 @@ var lines = [
 "I cannot use RSA because you already have the key to my heart"
 ]
 
+
 function newLine() {
-	var rand = Math.floor(Math.random() * (lines.length));
-	document.getElementById('lines').innerHTML = lines[rand];
+	var rand = Math.floor(Math.random() * (arr.length));
+	document.getElementById('lines').innerHTML = arr[rand];
 
 }
